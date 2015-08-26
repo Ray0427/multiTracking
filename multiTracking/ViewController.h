@@ -7,9 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <opencv2/highgui/cap_ios.h>
+#import <opencv2/objdetect/objdetect.hpp>
+#import <opencv2/imgproc/imgproc_c.h>
+#import "multizTracking-Prefix.pch"
+using namespace cv;
+@interface ViewController : UIViewController <CvVideoCameraDelegate>
+{
+__weak IBOutlet UIImageView *imageView;
+    CvVideoCamera* videoCamera;
 
-@interface ViewController : UIViewController
-
-
+}
+@property (nonatomic,retain) CvVideoCamera* videoCamera;
+- (IBAction)actionStart:(id)sender;
+- (IBAction)actionStop:(id)sender;
 @end
 
