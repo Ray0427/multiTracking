@@ -20,6 +20,9 @@ public:
 	int getYPos();
 	void setYPos(int y);
 
+    int getArea();
+    void setArea(int a);
+    
 	Scalar getHSVmin();
 	Scalar getHSVmax();
 
@@ -39,7 +42,7 @@ public:
 
 private:
 
-	int xPos, yPos;
+	int xPos, yPos,area;
 	string type;
 	Scalar HSVmin, HSVmax;
 	Scalar Color;

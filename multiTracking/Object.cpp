@@ -11,16 +11,28 @@ Object::Object()
 Object::Object(string name){
 
 	setType(name);
-    if(name=="orange"){
+    if(name=="custom"){
         
         //TODO: use "calibration mode" to find HSV min
         //and HSV max values
         
         setHSVmin(Scalar(0,124,210));
-        setHSVmax(Scalar(12,256,256));
+        setHSVmax(Scalar(30,256,256));
         
         //BGR value for Green:
-        setColor(Scalar(255,0,0));
+        setColor(Scalar(128,128,128));
+        
+    }
+    if(name=="orange"){
+        
+        //TODO: use "calibration mode" to find HSV min
+        //and HSV max values
+        
+        setHSVmin(Scalar(0,110,180));//0,124,210
+        setHSVmax(Scalar(20,255,255));
+        
+        //BGR value for Orange:
+        setColor(Scalar(0,128,255));
         
     }
 	if(name=="blue"){
@@ -99,6 +111,18 @@ void Object::setYPos(int y){
 
 	Object::yPos = y;
 
+}
+
+int Object::getArea(){
+    
+    return Object::area;
+    
+}
+
+void Object::setArea(int a){
+    
+    Object::area = a;
+    
 }
 
 Scalar Object::getHSVmin(){
