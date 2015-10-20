@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		719754F61B8CC95C00436F8B /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 719754F51B8CC95C00436F8B /* main.mm */; };
-		719754F91B8CC95C00436F8B /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 719754F81B8CC95C00436F8B /* AppDelegate.mm */; };
-		719754FC1B8CC95C00436F8B /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 719754FB1B8CC95C00436F8B /* ViewController.mm */; };
+		719754F91B8CC95C00436F8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 719754F81B8CC95C00436F8B /* AppDelegate.m */; };
+		719754FC1B8CC95C00436F8B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 719754FB1B8CC95C00436F8B /* ViewController.m */; };
 		719754FF1B8CC95C00436F8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 719754FD1B8CC95C00436F8B /* Main.storyboard */; };
 		719755011B8CC95C00436F8B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 719755001B8CC95C00436F8B /* Images.xcassets */; };
 		719755041B8CC95C00436F8B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 719755021B8CC95C00436F8B /* LaunchScreen.xib */; };
@@ -24,8 +24,26 @@
 		719755291B8CCA8D00436F8B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 719755221B8CCA8D00436F8B /* QuartzCore.framework */; };
 		7197552B1B8CCB5B00436F8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7197552A1B8CCB5B00436F8B /* UIKit.framework */; };
 		7197552D1B8CCB6E00436F8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7197552C1B8CCB6E00436F8B /* Foundation.framework */; };
-		719755301B8CD17400436F8B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7197552F1B8CD17400436F8B /* CoreGraphics.framework */; };
 		719755331B8CD35700436F8B /* Object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 719755311B8CD35700436F8B /* Object.cpp */; };
+		71B88FD91BD50257007D96DA /* curl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B88FC81BD50257007D96DA /* curl.framework */; };
+		71B88FDA1BD50257007D96DA /* json.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B88FC91BD50257007D96DA /* json.framework */; };
+		71B88FDB1BD50257007D96DA /* libARCommands.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B88FCA1BD50257007D96DA /* libARCommands.framework */; };
+		71B88FDC1BD50257007D96DA /* libARController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B88FCB1BD50257007D96DA /* libARController.framework */; };
+		71B88FDD1BD50257007D96DA /* libARDataTransfer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B88FCC1BD50257007D96DA /* libARDataTransfer.framework */; };
+		71B88FDE1BD50257007D96DA /* libARDiscovery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B88FCD1BD50257007D96DA /* libARDiscovery.framework */; };
+		71B88FDF1BD50257007D96DA /* libARMavlink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B88FCE1BD50257007D96DA /* libARMavlink.framework */; };
+		71B88FE01BD50257007D96DA /* libARMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B88FCF1BD50257007D96DA /* libARMedia.framework */; };
+		71B88FE11BD50257007D96DA /* libARNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B88FD01BD50257007D96DA /* libARNetwork.framework */; };
+		71B88FE21BD50257007D96DA /* libARNetworkAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B88FD11BD50257007D96DA /* libARNetworkAL.framework */; };
+		71B88FE31BD50257007D96DA /* libARSAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B88FD21BD50257007D96DA /* libARSAL.framework */; };
+		71B88FE41BD50257007D96DA /* libARStream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B88FD31BD50257007D96DA /* libARStream.framework */; };
+		71B88FE51BD50257007D96DA /* libARUpdater.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B88FD41BD50257007D96DA /* libARUpdater.framework */; };
+		71B88FE61BD50257007D96DA /* libARUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B88FD51BD50257007D96DA /* libARUtils.framework */; };
+		71B88FE81BD50257007D96DA /* openssl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B88FD71BD50257007D96DA /* openssl.framework */; };
+		71B88FEF1BD69599007D96DA /* PilotingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B88FEE1BD69599007D96DA /* PilotingViewController.m */; };
+		71B88FF41BD6965D007D96DA /* VideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B88FF31BD6965D007D96DA /* VideoView.m */; };
+		71B88FF71BD699B7007D96DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7197552F1B8CD17400436F8B /* CoreGraphics.framework */; };
+		71B88FF81BD699C1007D96DA /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B88FF51BD6996F007D96DA /* VideoToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,9 +61,9 @@
 		719754F41B8CC95C00436F8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		719754F51B8CC95C00436F8B /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		719754F71B8CC95C00436F8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		719754F81B8CC95C00436F8B /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		719754F81B8CC95C00436F8B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		719754FA1B8CC95C00436F8B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		719754FB1B8CC95C00436F8B /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		719754FB1B8CC95C00436F8B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		719754FE1B8CC95C00436F8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		719755001B8CC95C00436F8B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		719755031B8CC95C00436F8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -66,6 +84,26 @@
 		7197552F1B8CD17400436F8B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		719755311B8CD35700436F8B /* Object.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Object.cpp; sourceTree = "<group>"; };
 		719755321B8CD35700436F8B /* Object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Object.h; sourceTree = "<group>"; };
+		71B88FC81BD50257007D96DA /* curl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = curl.framework; sourceTree = "<group>"; };
+		71B88FC91BD50257007D96DA /* json.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = json.framework; sourceTree = "<group>"; };
+		71B88FCA1BD50257007D96DA /* libARCommands.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libARCommands.framework; sourceTree = "<group>"; };
+		71B88FCB1BD50257007D96DA /* libARController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libARController.framework; sourceTree = "<group>"; };
+		71B88FCC1BD50257007D96DA /* libARDataTransfer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libARDataTransfer.framework; sourceTree = "<group>"; };
+		71B88FCD1BD50257007D96DA /* libARDiscovery.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libARDiscovery.framework; sourceTree = "<group>"; };
+		71B88FCE1BD50257007D96DA /* libARMavlink.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libARMavlink.framework; sourceTree = "<group>"; };
+		71B88FCF1BD50257007D96DA /* libARMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libARMedia.framework; sourceTree = "<group>"; };
+		71B88FD01BD50257007D96DA /* libARNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libARNetwork.framework; sourceTree = "<group>"; };
+		71B88FD11BD50257007D96DA /* libARNetworkAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libARNetworkAL.framework; sourceTree = "<group>"; };
+		71B88FD21BD50257007D96DA /* libARSAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libARSAL.framework; sourceTree = "<group>"; };
+		71B88FD31BD50257007D96DA /* libARStream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libARStream.framework; sourceTree = "<group>"; };
+		71B88FD41BD50257007D96DA /* libARUpdater.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libARUpdater.framework; sourceTree = "<group>"; };
+		71B88FD51BD50257007D96DA /* libARUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libARUtils.framework; sourceTree = "<group>"; };
+		71B88FD71BD50257007D96DA /* openssl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = openssl.framework; sourceTree = "<group>"; };
+		71B88FED1BD69599007D96DA /* PilotingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PilotingViewController.h; sourceTree = "<group>"; };
+		71B88FEE1BD69599007D96DA /* PilotingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PilotingViewController.m; sourceTree = "<group>"; };
+		71B88FF21BD6965D007D96DA /* VideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoView.h; sourceTree = "<group>"; };
+		71B88FF31BD6965D007D96DA /* VideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoView.m; sourceTree = "<group>"; };
+		71B88FF51BD6996F007D96DA /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,16 +111,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				719755301B8CD17400436F8B /* CoreGraphics.framework in Frameworks */,
+				71B88FE41BD50257007D96DA /* libARStream.framework in Frameworks */,
+				71B88FF71BD699B7007D96DA /* CoreGraphics.framework in Frameworks */,
+				71B88FF81BD699C1007D96DA /* VideoToolbox.framework in Frameworks */,
+				71B88FDD1BD50257007D96DA /* libARDataTransfer.framework in Frameworks */,
+				71B88FE81BD50257007D96DA /* openssl.framework in Frameworks */,
 				7197552D1B8CCB6E00436F8B /* Foundation.framework in Frameworks */,
+				71B88FDE1BD50257007D96DA /* libARDiscovery.framework in Frameworks */,
+				71B88FDF1BD50257007D96DA /* libARMavlink.framework in Frameworks */,
 				7197552B1B8CCB5B00436F8B /* UIKit.framework in Frameworks */,
+				71B88FE31BD50257007D96DA /* libARSAL.framework in Frameworks */,
 				719755231B8CCA8D00436F8B /* Accelerate.framework in Frameworks */,
+				71B88FD91BD50257007D96DA /* curl.framework in Frameworks */,
 				719755241B8CCA8D00436F8B /* AssetsLibrary.framework in Frameworks */,
 				719755251B8CCA8D00436F8B /* AVFoundation.framework in Frameworks */,
+				71B88FE11BD50257007D96DA /* libARNetwork.framework in Frameworks */,
+				71B88FE21BD50257007D96DA /* libARNetworkAL.framework in Frameworks */,
+				71B88FE61BD50257007D96DA /* libARUtils.framework in Frameworks */,
+				71B88FDB1BD50257007D96DA /* libARCommands.framework in Frameworks */,
 				719755261B8CCA8D00436F8B /* CoreImage.framework in Frameworks */,
 				719755271B8CCA8D00436F8B /* CoreMedia.framework in Frameworks */,
+				71B88FE51BD50257007D96DA /* libARUpdater.framework in Frameworks */,
 				719755281B8CCA8D00436F8B /* CoreVideo.framework in Frameworks */,
 				719755291B8CCA8D00436F8B /* QuartzCore.framework in Frameworks */,
+				71B88FE01BD50257007D96DA /* libARMedia.framework in Frameworks */,
+				71B88FDC1BD50257007D96DA /* libARController.framework in Frameworks */,
+				71B88FDA1BD50257007D96DA /* json.framework in Frameworks */,
 				7197551B1B8CCA1400436F8B /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,11 +154,11 @@
 		719754E71B8CC95C00436F8B = {
 			isa = PBXGroup;
 			children = (
-				7197552F1B8CD17400436F8B /* CoreGraphics.framework */,
 				719755191B8CC9DD00436F8B /* Framework */,
 				719754F21B8CC95C00436F8B /* multiTracking */,
 				7197550C1B8CC95D00436F8B /* multiTrackingTests */,
 				719754F11B8CC95C00436F8B /* Products */,
+				71B88FC71BD50257007D96DA /* SDK3.6_frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,16 +174,20 @@
 		719754F21B8CC95C00436F8B /* multiTracking */ = {
 			isa = PBXGroup;
 			children = (
+				71B88FF21BD6965D007D96DA /* VideoView.h */,
+				71B88FF31BD6965D007D96DA /* VideoView.m */,
 				719755311B8CD35700436F8B /* Object.cpp */,
 				719755321B8CD35700436F8B /* Object.h */,
 				719754F71B8CC95C00436F8B /* AppDelegate.h */,
-				719754F81B8CC95C00436F8B /* AppDelegate.mm */,
+				719754F81B8CC95C00436F8B /* AppDelegate.m */,
 				719754FA1B8CC95C00436F8B /* ViewController.h */,
-				719754FB1B8CC95C00436F8B /* ViewController.mm */,
+				719754FB1B8CC95C00436F8B /* ViewController.m */,
 				719754FD1B8CC95C00436F8B /* Main.storyboard */,
 				719755001B8CC95C00436F8B /* Images.xcassets */,
 				719755021B8CC95C00436F8B /* LaunchScreen.xib */,
 				719754F31B8CC95C00436F8B /* Supporting Files */,
+				71B88FED1BD69599007D96DA /* PilotingViewController.h */,
+				71B88FEE1BD69599007D96DA /* PilotingViewController.m */,
 			);
 			path = multiTracking;
 			sourceTree = "<group>";
@@ -164,6 +222,8 @@
 		719755191B8CC9DD00436F8B /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				71B88FF51BD6996F007D96DA /* VideoToolbox.framework */,
+				7197552F1B8CD17400436F8B /* CoreGraphics.framework */,
 				7197552C1B8CCB6E00436F8B /* Foundation.framework */,
 				7197552A1B8CCB5B00436F8B /* UIKit.framework */,
 				7197551C1B8CCA8D00436F8B /* Accelerate.framework */,
@@ -177,6 +237,29 @@
 			);
 			name = Framework;
 			path = multiTracking.xcodeproj;
+			sourceTree = "<group>";
+		};
+		71B88FC71BD50257007D96DA /* SDK3.6_frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71B88FC81BD50257007D96DA /* curl.framework */,
+				71B88FC91BD50257007D96DA /* json.framework */,
+				71B88FCA1BD50257007D96DA /* libARCommands.framework */,
+				71B88FCB1BD50257007D96DA /* libARController.framework */,
+				71B88FCC1BD50257007D96DA /* libARDataTransfer.framework */,
+				71B88FCD1BD50257007D96DA /* libARDiscovery.framework */,
+				71B88FCE1BD50257007D96DA /* libARMavlink.framework */,
+				71B88FCF1BD50257007D96DA /* libARMedia.framework */,
+				71B88FD01BD50257007D96DA /* libARNetwork.framework */,
+				71B88FD11BD50257007D96DA /* libARNetworkAL.framework */,
+				71B88FD21BD50257007D96DA /* libARSAL.framework */,
+				71B88FD31BD50257007D96DA /* libARStream.framework */,
+				71B88FD41BD50257007D96DA /* libARUpdater.framework */,
+				71B88FD51BD50257007D96DA /* libARUtils.framework */,
+				71B88FD71BD50257007D96DA /* openssl.framework */,
+			);
+			name = SDK3.6_frameworks;
+			path = multiTracking/SDK3.6_frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,10 +362,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				719754FC1B8CC95C00436F8B /* ViewController.mm in Sources */,
-				719754F91B8CC95C00436F8B /* AppDelegate.mm in Sources */,
+				719754FC1B8CC95C00436F8B /* ViewController.m in Sources */,
+				719754F91B8CC95C00436F8B /* AppDelegate.m in Sources */,
 				719755331B8CD35700436F8B /* Object.cpp in Sources */,
 				719754F61B8CC95C00436F8B /* main.mm in Sources */,
+				71B88FF41BD6965D007D96DA /* VideoView.m in Sources */,
+				71B88FEF1BD69599007D96DA /* PilotingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +498,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/multiTracking.xcodeproj",
+					"$(PROJECT_DIR)/multiTracking/SDK3.6_frameworks",
 				);
 				INFOPLIST_FILE = multiTracking/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
@@ -429,6 +515,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/multiTracking.xcodeproj",
+					"$(PROJECT_DIR)/multiTracking/SDK3.6_frameworks",
 				);
 				INFOPLIST_FILE = multiTracking/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
